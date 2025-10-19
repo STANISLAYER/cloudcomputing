@@ -1,1 +1,52 @@
-Maximenco Stanislav
+# Maximenco Stanislav
+
+# Задание 0: 
+
+Я создал аккаунт на AWS.
+
+![Image](screenshots/lab1.png)
+
+# Задание 1: 
+Я создал IAM группу и выбрал политику AdministratotAccess
+![Image](screenshots/lab2.png)
+Данная политика предоставляет полный доступ ко всем ресурсам и сервисам AWS.
+
+Далее я создал юзера и разрешил доступ к AWS Management Console
+![Image](screenshots/lab3.png)
+
+Далее я разлогинился и вошёл под другим аккаунтом cloudstudent
+![Image](screenshots/lab4.png)
+Далее я создал бюджет.
+![Image](screenshots/lab5.png)
+
+Потом я создал key pair
+![Image](screenshots/lab6.png)
+Далее security group
+![Image](screenshots/lab7.png)
+
+Затем я вставил скрипт, привёденный преподавателем
+![Image](screenshots/lab8.png)
+Далее прозвучал вопрос "Что такое User Data и какую роль выполняет данный скрипт? Для чего используется nginx?"
+User Data — это скрипт, который автоматически выполняется при первом запуске EC2-инстанса для его настройки. Nginx используется как веб-сервер для обработки и распределения веб-запросов.
+
+Далее я запустил instance
+![Image](screenshots/lab9.png)
+
+Всё работает, всё открывается
+![Image](screenshots/lab10.png)
+
+Все проверки прошли успешно, 3/3
+![Image](screenshots/lab11.png)
+
+Вот вкладка monitoring
+![Image](screenshots/lab12.png)
+
+Далее прозвучал вопрос:
+В каких случаях важно включать детализированный мониторинг?
+Ответ на него: Детализированный мониторинг включают, когда нужно точнее отслеживать производительность и нагрузку ресурсов, например для анализа проблем или оптимизации работы системы.
+
+Вот скрины системных логов:
+![Image](screenshots/lab13.png)
+
+Вот instance screenshot
+![Image](screenshots/lab14.png)
